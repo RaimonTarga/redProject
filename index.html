@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red pattern quizz</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="bg-container">
+        <div class="container">
+            <div class="Title gridElement">Guess the pattern</div>
+            <div class="Type gridElement" id="typeContainer">Type</div>
+            <div class="Timer gridElement">
+                <div id="progressBar"></div>
+            </div>
+            <div class="Display gridElement" id="mainDisplay">
+                <img id="displayImage" src="img/default.png">
+            </div>
+            <div class="Answers">
+                <div class="Answer-container gridElement" id="answersContainer">
+                    <div class="Answer1 gridElement Answer">Answer 1</div>
+                    <div class="Answer2 gridElement Answer">Answer 2</div>
+                    <div class="Answer3 gridElement Answer">Answer 3</div>
+                    <div class="Answer4 gridElement Answer">Answer 4</div>
+                </div>
+                <div class="Next-Container gridElement" id="nextContainer" >
+                    <div class="result gridElement" id="resultContainer">Result</div>
+                    <div class="nextButton gridElement Answer" id="nextButton">Next</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="module" src="./quizzGame.js"></script>
+</html>

@@ -1,0 +1,123 @@
+.container {
+    display: grid;
+    grid-template-columns: 1.7fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 3fr 1.1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Title"
+      "Type"
+      "Timer"
+      "Display"
+      "Answers";
+      text-align: center;
+      height: 100vh;
+      background-color: black;
+      color: white;
+      border-style: solid;
+      border-color: white;
+      border-width: 1px;
+  }
+
+.gridElement{
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.Answer:hover{
+    background-color: white;
+    color: black;
+}
+  
+.Title { 
+    grid-area: Title; 
+}
+  
+.Type {
+    grid-area: Type;
+}
+  
+.Timer {
+    grid-area: Timer;
+}
+  
+.Display {
+    grid-area: Display; 
+}
+  
+.Answers {
+    grid-area: Answers; 
+}
+
+.Answer-container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Answer1 Answer2"
+      "Answer3 Answer4";
+  }
+  
+.Answer1 {
+    grid-area: Answer1;
+}
+
+.Answer2 {
+    grid-area: Answer2;
+}
+
+.Answer3 {
+    grid-area: Answer3;
+}
+
+.Answer4 {
+    grid-area: Answer4;
+}
+
+.Next-Container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "result"
+        "nextButton";
+}
+  
+.result {
+    grid-area: result;
+}
+
+.nextButton {
+    grid-area: nextButton; 
+}
+
+.Correct-Answer{
+    background-color: green;
+}
+
+.Incorrect-Answer{
+    background-color: red;
+}
+
+.Enhanced{
+    background-color: red;
+}
+
+.Unenhanced{
+    background-color: blue;
+}
+
+#progressBar{
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+}
+
+  
+  

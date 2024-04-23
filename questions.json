@@ -1,0 +1,17 @@
+[
+    {
+        "url": "sidesafe1",
+        "pattern_type":"unenhanced",
+        "correct_answer": 2
+    },
+    {
+        "url": "cardinals1",
+        "pattern_type":"enhanced",
+        "correct_answer": 0
+    },
+    {
+        "url": "pag1",
+        "pattern_type":"enhanced",
+        "correct_answer": 3
+    }
+]
